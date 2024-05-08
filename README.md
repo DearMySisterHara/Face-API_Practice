@@ -20,27 +20,36 @@ It is a Repository for studying Face-API at Graphics lecture
 [Realtime Face-detection](https://github.com/WebDevSimplified/Face-Detection-JavaScript)
 
 ## Tutorial
+
 1. git 설치
-
-[git 다운로드]('https://git-scm.com/downloads') 
-
+    
+    [git 다운로드](notion://www.notion.so/'%3Chttps://git-scm.com/downloads%3E')
+    
 2. Cmd를 열어서 레파지토리 클론하기
-```bash
-git clone https://github.com/llRona/Face-API_Practice
-```
+    
+    ```bash
+    git clone <https://github.com/llRona/Face-API_Practice>
+    ```
+    
 3. node.js를 설치
-
-[node.js 다운로드]('https://nodejs.org/en/download/current')
-
+    
+    [node.js 다운로드](notion://www.notion.so/'%3Chttps://nodejs.org/en/download/current%3E')
+    
 4. cmd에서 http-server 설치 및 실행
- - http-server 설치 
-```bash
-npm install -g http-server
-```
- - http-server 실행
-```bash
-http-server [path]
-```
+    - http-server 설치
+    
+    ```bash
+    npm install -g http-server
+    
+    ```
+    
+    - http-server 실행
+    
+    ```bash
+    http-server [path]
+    
+    ```
+    
 5. 127.0.0.1:8080(로컬호스트)으로 접속
-
-[로컬호스트]('http://127.0.0.1:8080')
+    
+    [로컬 호스트](notion://www.notion.so/'%3Chttp://127.0.0.1:8080%3E')
