@@ -23,13 +23,15 @@ It is a Repository for studying Face-API at Graphics lecture
 1. git 설치
 
 [git 다운로드]('https://git-scm.com/downloads') 
+
 2. Cmd를 열어서 레파지토리 클론하기
 ```bash
 git clone https://github.com/llRona/Face-API_Practice
 ```
 3. node.js를 설치
 
-[node.js 다운로드](https://nodejs.org/en/download/current)
+[node.js 다운로드]('https://nodejs.org/en/download/current')
+
 4. cmd에서 http-server 설치 및 실행
  - http-server 설치 
 ```bash
@@ -41,4 +43,4 @@ http-server [path]
 ```
 5. 127.0.0.1:8080(로컬호스트)으로 접속
 
-[로컬호스트](127.0.0.1:8080)
+[로컬호스트]('http://127.0.0.1:8080')
