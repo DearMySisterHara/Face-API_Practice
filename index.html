@@ -1,32 +1,52 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script defer src="face-api.min.js"></script>
-  <script defer src="script.js"></script>
-  <title>Face Recognition</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face-API Team 9</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-    canvas {
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-  </style>
+        .portfolio {
+            text-align: center;
+        }
+
+        .portfolio h1 {
+            margin-bottom: 20px;
+        }
+
+        .portfolio button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .portfolio button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
-  <input type="file" id="imageUpload">
+
+<div class="portfolio">
+    <h1>Face-API Team 9</h1>
+    <button onclick="location.href='/Face-Recognition/index.html'">얼굴 인식</button>
+    <button onclick="location.href='포트폴리오2.html'">실시간 얼굴 인식</button>
+</div>
+
 </body>
 </html>
