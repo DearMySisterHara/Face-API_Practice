@@ -16,7 +16,9 @@ It is a Repository for studying Face-API at Graphics lecture
 
 ## links
 [Face-API library](https://github.com/justadudewhohacks/face-api.js)
+
 [Face-detection](https://github.com/WebDevSimplified/Face-Recognition-JavaScript)
+
 [Realtime Face-detection](https://github.com/WebDevSimplified/Face-Detection-JavaScript)
 
 ## Tutorial
