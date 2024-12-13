@@ -1,7 +1,7 @@
 # Face-API_Practice  
 It is a Repository for studying Face-API at Graphics lecture
 
-컴퓨터 그래픽스 수업에서 Face-API 학습을 위한 레파지토리 입니다.
+컴퓨터 그래픽스 수업에서 Face-API 실습을 위한 레파지토리 입니다.
 
 links에 첨부한 github를 토대로 학습 및 구현을 하였으며, 각 팀원의 이미지를 labeling 해서 인식해보는 실습을 하였고 웹켐을 통한 실시간 얼굴인식 또한 실습했습니다.
 
