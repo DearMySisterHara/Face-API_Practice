@@ -14,14 +14,23 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            flex-direction: column;
         }
 
         .portfolio {
             text-align: center;
+            max-width: 800px;
         }
 
         .portfolio h1 {
             margin-bottom: 20px;
+            color: #333;
+        }
+
+        .portfolio p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: #666;
         }
 
         .portfolio button {
@@ -38,14 +47,38 @@
         .portfolio button:hover {
             background-color: #45a049;
         }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #999;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: #4CAF50;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
 
 <div class="portfolio">
     <h1>Face-API Team 9</h1>
+    <p>저희 팀은 얼굴 인식 및 실시간 얼굴 추적 기술을 연구합니다.<br>
+        이 페이지는 저희의 작업을 보여주는 데 사용됩니다.</p>
+
     <button onclick="location.href='/Face-Recognition/index.html'">얼굴 인식</button>
     <button onclick="location.href='/Realtime_Face-Recognition/index.html'">실시간 얼굴 인식</button>
+    <button onclick="location.href='https://github.com/team9-face-api'">GitHub</button>
+    <button onclick="location.href='mailto:team9@example.com'">Contact</button>
+</div>
+
+<div class="footer">
+    © 2024 Face-API Team 9 | <a href="https://team9-face-api.example.com">팀 웹사이트</a>
 </div>
 
 </body>
